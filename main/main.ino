@@ -73,7 +73,7 @@ void loop()
   delay(500);
 }
 
-// "ISR" is a magic interrupt function for ATTiny85 (maybe all the x5 but not sure)
+// "ISR" is a magic interrupt function for ATtiny85 (maybe all the x5 but not sure)
 // Any interrupts on registered pins will trigger this ISR, I'm sure you
 // could check registers to see which pin triggered the interrupt but
 // I've only registered PB3
