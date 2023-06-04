@@ -1,10 +1,15 @@
 # Displaying fan RPM on an OLED using an Attiny85
 
--- Demo video --
+![IMG_7049](https://github.com/korziee/attiny85-fan-rpm-oled-display/assets/22607911/ff2b9151-4103-4ea4-8d0f-3252b90be812)
+
+
+## Demo Video
+
+https://github.com/korziee/attiny85-fan-rpm-oled-display/assets/22607911/2d447892-6852-46a2-81ec-11496557a0af
 
 ## Requirements
 
-1. Attiny85 development board (the one with USB + 5V regulator), [e.g.](https://www.ebay.com.au/itm/191572154213).
+1. Attiny85 development board (the one with USB + 5V regulator), [like this](https://www.ebay.com.au/itm/191572154213).
 2. Arduino 2 IDE (think this comes pre-installed with the boards manager, you could use the original IDE but you'll need to add ATTinyCore to the boards manager, [like this](https://github.com/SpenceKonde/ATTinyCore/blob/v2.0.0-devThis-is-the-head-submit-PRs-against-this/Installation.md))
 3. 3 pin DC Fan
    1. I've used an old [PL80S12M](https://www.elecok.com/power-logic-pl80s12m-12v-0-14a-3wires-cooling-fan.html). It activates down to 5v so I could test in circuit without an external supply.
