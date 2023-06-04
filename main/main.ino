@@ -36,6 +36,7 @@ void setup()
   oled.print("By Kory Porter");
   oled.set2X();
 
+  /** Setup Interrupts for ATtiny85 */
   cli();                         // clear any interrupts
   PCMSK |= (1 << INTERRUPT_PIN); // enable interrupts only on interrupt pin
   MCUCR |= (1 << 3);             // configure only to trigger interrupts on rising edge
