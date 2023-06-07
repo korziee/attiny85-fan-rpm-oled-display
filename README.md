@@ -6,6 +6,10 @@
 
 https://github.com/korziee/attiny85-fan-rpm-oled-display/assets/22607911/2d447892-6852-46a2-81ec-11496557a0af
 
+## Schematic
+
+![schematic-v0.1](./assets/schematic-v0.1.svg)
+
 ## Requirements
 
 1. ATtiny85 development board (the one with USB + 5V regulator), [like this](https://www.ebay.com.au/itm/191572154213).
